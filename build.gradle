@@ -40,6 +40,7 @@ dependencies {
     deobfCompile	"just-enough-resources-jer:JustEnoughResources:${version_minecraft}:${version_jer}"
     deobfCompile	"biomes-o-plenty:BiomesOPlenty-${version_minecraft}:${version_bop}:universal"
 	deobfCompile 	"blusunrize:ImmersiveEngineering:${version_ie}"
+	deobfCompile 	"embers-rekindled:EmbersRekindled:${version_embers}"
 
     compile fileTree(dir: 'lib', include: '*.jar')
 }
