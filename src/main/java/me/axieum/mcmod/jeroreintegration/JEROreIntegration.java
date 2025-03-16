@@ -3,6 +3,7 @@ package me.axieum.mcmod.jeroreintegration;
 import me.axieum.mcmod.jeroreintegration.config.Config;
 import me.axieum.mcmod.jeroreintegration.integrations.Integrate;
 import me.axieum.mcmod.jeroreintegration.integrations.biomesoplenty.BiomesOPlenty;
+import me.axieum.mcmod.jeroreintegration.integrations.immersiveenergy.ImmersiveEnergy;
 import me.axieum.mcmod.jeroreintegration.integrations.immersiveengineering.ImmersiveEngineering;
 import me.axieum.mcmod.jeroreintegration.integrations.immersiveintelligence.ImmersiveIntelligence;
 import net.minecraftforge.fml.common.Loader;
@@ -35,6 +36,8 @@ public class JEROreIntegration
         	ImmersiveEngineering.init();
         if (Loader.isModLoaded("immersiveintelligence"))
             ImmersiveIntelligence.init();
+        if (Loader.isModLoaded("immersive_energy"))
+            ImmersiveEnergy.init();
 
         // Load all integrations
         Integrate.init();

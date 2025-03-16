@@ -16,5 +16,4 @@ public class NetherOreBlock extends OreBlock {
 		this.setGenerationType(GenerationType.SQUARE);
 		this.addDrops();
 	}
-
 }

@@ -16,5 +16,4 @@ public class IEOreBlock extends OreBlock {
 		this.setGenerationType(GenerationType.SQUARE);
 		this.addDrops();
 	}
-
 }

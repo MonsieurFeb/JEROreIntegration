@@ -6,9 +6,7 @@ import me.axieum.mcmod.jeroreintegration.config.Config;
 import me.axieum.mcmod.jeroreintegration.integrations.Integrate;
 import me.axieum.mcmod.jeroreintegration.integrations.immersiveintelligence.ores.*;
 
-public class ImmersiveIntelligence
-{
-
+public class ImmersiveIntelligence {
 	public static final OreBlock[] IE_II_ORES = {
 			new OreFluorite(),
 			new OrePhosphorus(),
@@ -18,11 +16,9 @@ public class ImmersiveIntelligence
 			new OreZinc()
 	};
 	
-	public static void init()
-    {
+	public static void init() {
         File ieFile = Config.getFile("immersiveintelligence.json");
         if (ieFile == null)
             Integrate.write("immersiveintelligence.json", IE_II_ORES);
     }
-
 }

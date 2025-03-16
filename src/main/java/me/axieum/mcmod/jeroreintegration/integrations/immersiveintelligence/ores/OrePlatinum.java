@@ -2,8 +2,8 @@ package me.axieum.mcmod.jeroreintegration.integrations.immersiveintelligence.ore
 
 import pl.pabilo8.immersiveintelligence.common.IIConfigHandler.IIConfig.Ores;
 
-public class OrePlatinum  extends OverworldOreBlock
-{
+public class OrePlatinum  extends OverworldOreBlock {
+
 	protected static int [] oreConfig;
 
 	public OrePlatinum() {
@@ -11,5 +11,4 @@ public class OrePlatinum  extends OverworldOreBlock
 		this.setBlockMeta(2);
 		this.setGenerationValue(""+oreConfig[3]+','+oreConfig[0]+','+oreConfig[1]+','+oreConfig[2]+"");
 	}
-
 }
